@@ -21,6 +21,10 @@ jobs:
         id: checkout
         uses: actions/checkout@v4
 
+      - name: Set Yarn version
+        id: set-yarn
+        run: yarn set version stable
+
       - name: Setup Node.js
         id: setup-node
         uses: actions/setup-node@v4
