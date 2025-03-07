@@ -29,7 +29,7 @@
     "format:write": "yarn prettier --write .",
     "format:check": "yarn prettier --check .",
     "lint": "yarn eslint .",
-    "local-action": "local-action . src/main.ts .env",
+    "local-action": "yarn dlx @github/local-action . src/main.ts .env",
     "package": "yarn rollup --config rollup.config.ts --configPlugin @rollup/plugin-typescript",
     "package:watch": "yarn run package -- --watch",
     "test": "NODE_OPTIONS=--experimental-vm-modules NODE_NO_WARNINGS=1 yarn jest",
@@ -73,5 +73,10 @@
   "optionalDependencies": {
     "@rollup/rollup-linux-x64-gnu": "*"
   },
-  "packageManager": "yarn@4.7.0"
+  "packageManager": "yarn@4.7.0",
+  "dependenciesMeta": {
+    "@actions/core@1.11.1": {
+      "unplugged": false
+    }
+  }
 }

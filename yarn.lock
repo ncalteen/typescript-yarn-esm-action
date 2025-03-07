@@ -7777,6 +7777,8 @@ __metadata:
     tslib: "npm:^2.8.1"
     typescript: "npm:^5.7.3"
   dependenciesMeta:
+    "@actions/core@1.11.1":
+      unplugged: false
     "@rollup/rollup-linux-x64-gnu":
       optional: true
   languageName: unknown
