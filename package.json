@@ -29,7 +29,7 @@
     "format:write": "yarn prettier --write .",
     "format:check": "yarn prettier --check .",
     "lint": "yarn eslint .",
-    "local-action": "yarn dlx @github/local-action . src/main.ts .env",
+    "local-action": "local-action . src/main.ts .env",
     "package": "yarn rollup --config rollup.config.ts --configPlugin @rollup/plugin-typescript",
     "package:watch": "yarn run package -- --watch",
     "test": "NODE_OPTIONS=--experimental-vm-modules NODE_NO_WARNINGS=1 yarn jest",
@@ -78,5 +78,8 @@
     "@actions/core@1.11.1": {
       "unplugged": false
     }
+  },
+  "resolutions": {
+    "@github/local-action": "/Users/ncalteen/Workspace/github/local-action"
   }
 }
