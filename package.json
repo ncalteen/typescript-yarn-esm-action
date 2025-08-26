@@ -78,8 +78,5 @@
     "@actions/core@1.11.1": {
       "unplugged": false
     }
-  },
-  "resolutions": {
-    "@github/local-action": "/Users/ncalteen/Workspace/github/local-action"
   }
 }
