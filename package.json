@@ -73,10 +73,5 @@
   "optionalDependencies": {
     "@rollup/rollup-linux-x64-gnu": "*"
   },
-  "packageManager": "yarn@4.7.0",
-  "dependenciesMeta": {
-    "@actions/core@1.11.1": {
-      "unplugged": false
-    }
-  }
+  "packageManager": "yarn@4.7.0"
 }
