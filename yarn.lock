@@ -6698,7 +6698,7 @@ __metadata:
     typescript: "npm:^5.9.2"
   dependenciesMeta:
     "@actions/core@1.11.1":
-      unplugged: false
+      unplugged: true
     "@rollup/rollup-linux-x64-gnu":
       optional: true
   languageName: unknown
